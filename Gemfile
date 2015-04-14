@@ -19,6 +19,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Slim template engine
 gem 'slim-rails'
+gem 'boostrap-sass'
 
 
 group :development, :test do

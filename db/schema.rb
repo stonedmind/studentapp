@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150414092527) do
+ActiveRecord::Schema.define(version: 20150414093731) do
+
+  create_table "devices", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "name"
+    t.string   "status"
+    t.string   "senval"
+  end
 
   create_table "weights", force: :cascade do |t|
     t.datetime "created_at", null: false
